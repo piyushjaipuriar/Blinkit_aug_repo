@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend 1 Contest 3 Project</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style3.css" />
+  </head>
+  <body>
+    <header>
+      <!-- Navigation -->
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand w-25" href="#"
+            ><span class="bg-danger text-light fw-bold rounded-2 px-1">D</span
+            ><span class="text-danger fw-bold mx-1">Fdelivery</span></a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-between"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Food</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Recipes</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <div class="border d-flex justify-content-center align-middle">
+                <input
+                  class="form-control me-2 border-0"
+                  type="search"
+                  placeholder="Search your item"
+                  aria-label="Search"
+                />
+                <a href="#"
+                  ><img
+                    src="search-icon.png"
+                    alt="search icon"
+                    class="mx-auto px-auto object-fit-cover"
+                    width="20"
+                    height="20"
+                /></a>
+              </div>
+              <img
+                src="shopping-bag-icon.png"
+                alt="shopping bag icon"
+                width="20"
+                height="20"
+                class="mx-2"
+              />
+              <sup class="bg-danger text-light rounded-5">4</sup>
+              <button
+                class="btn text-nowrap bg-danger text-light ms-2"
+                type="submit"
+              >
+                Sign In
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="col">
+      <!-- Content of First Page -->
+      <div id="content" class="row justify-content-between align-items-center">
+        <article class="col-4">
+          <span class="bg-danger-subtle rounded-pill px-2 py-1"
+            >More than Faster</span
+          >
+          <img
+            src="popcorn-image.png"
+            alt="popcorn image"
+            width="60"
+            id="popcorn-image"
+          />
+          <h1 class="fw-bold">
+            Get your cuisine delivered right to
+            <span class="text-danger">your door</span>
+          </h1>
+          <p class="text-body-secondary">
+            Food that is delivered at the right time. The trendy food delivery
+            partner. Good food is what we deliver. Your hunger companion
+          </p>
+          <button class="rounded-3 p-2 px-4 bg-danger border-0 text-light">
+            Explore Food
+          </button>
+        </article>
+        <img
+          src="food-delivery-image.png"
+          alt="food delivering image"
+          class="col-6 align-middle w-auto h-auto"
+        />
+      </div>
+
+      <!-- Content of Second Page -->
+      <div id="content" class="justify-content-center align-items-center">
+        <div class="row my-5">
+          <div class="col-3">
+            <h2 class="fw-bold">Why we are Best in our Town</h2>
+            <p class="text-body-secondary">
+              whole grains and low-fat dairy can help to reduce your risk of
+              heart disease by maintaining blood pressure and
+            </p>
+          </div>
+          <div class="col-3">
+            <img
+              src="chicken-image.png"
+              alt="chicken image"
+              width="100"
+              height="100"
+            />
+            <h3 class="fw-bold">Choose your favorite food</h3>
+          </div>
+          <div class="col-3">
+            <img
+              src="delivery-service-image.png"
+              alt="delivery service image"
+              width="100"
+              height="100"
+            />
+            <h3 class="fw-bold">Get delivery at your door step</h3>
+          </div>
+          <div class="col-3">
+            <img
+              src="food-delivery-users.png"
+              alt="food delivery users reviews"
+              width="100"
+              height="80"
+            />
+            <h3 class="fw-bold">We have 400+ Reviews On our app</h3>
+          </div>
+        </div>
+        <div class="text-center">
+          <h2 class="fw-bold mb-3">Try Our Special Recipes</h2>
+          <nav
+            class="navbar justify-content-between mx-auto p-2"
+            style="width: 600px"
+          >
+            <a href="#" class="text-decoration-none fw-bold text-danger"
+              >Fast Food</a
+            >
+            <a href="#" class="text-decoration-none fw-bold text-dark"
+              >Rice Menu</a
+            >
+            <a href="#" class="text-decoration-none fw-bold text-dark"
+              >Desserts</a
+            >
+            <a href="#" class="text-decoration-none fw-bold text-dark"
+              >Coffee</a
+            >
+            <a href="#" class="text-decoration-none fw-bold text-dark">Pizza</a>
+            <a href="#" class="text-decoration-none fw-bold text-dark"
+              >See All Products</a
+            >
+          </nav>
+        </div>
+        <div
+          class="progress justify-content-between mx-auto bg-secondary"
+          style="width: 600px; height: 2px"
+          role="progressbar"
+          aria-label="Example 1px high"
+          aria-valuenow="25"
+          aria-valuemin="0"
+          aria-valuemax="100"
+          style="height: 1px"
+        >
+          <div class="progress-bar bg-danger" style="width: 15%"></div>
+        </div>
+        <div
+          class="row fw-bold align-items-center text-center my-5 p-0 flex-nowrap"
+        >
+          <div class="col-3 border border-light-subtle rounded-3 mx-1 p-0">
+            <img
+              src="crispy-fried-chicken-image.png"
+              alt="crispy fried chicken"
+              width="100"
+              height="108"
+            />
+            <div class="justify-content-center mx-3">
+              <img
+                src="rating-star-icon.png"
+                alt="rating star icon image"
+                width="12"
+                height="12"
+              />
+              <img
+                src="rating-star-icon.png"
+                alt="rating star icon image"
+                width="12"
+                height="12"
+              />
+              <img
+                src="rating-star-icon.png"
+                alt="rating star icon image"
+                width="12"
+                height="12"
+              />
+              <img
+                src="rating-star-icon.png"
+                alt="rating star icon image"
+                width="12"
+                height="12"
+              />
+              <img
+                src="rating-star-icon.png"
+                alt="rating star icon image"
+                width="12"
+                height="12"
+              />
+            </div>
+            <h4 class="fw-bold">Crispy Fried Chicken</h4>
+            <p class="text-body-secondary">
+              Price <span class="text-danger">$ 13.00</span>
+            </p>
+            <button
+              class="border border-1 border-danger bg-light rounded-3 text-danger p-1 px-2"
+            >
+              Add to Cart+
+            </button>
+          </div>
+          <div class="col-3 border border-light-subtle rounded-3 mx-1 p-0">
+            <img
+              src="crispy-fried-chicken-image.png"
+              alt="crispy fried chicken"
+              width="100"
+              height="108"
+            />
+            <div class="justify-content-center mx-3">
+              <img
+                src="rating-star-icon.png"
+                alt="rating star icon image"
+                width="12"
+                height="12"
+              />
+              <img
+                src="rating-star-icon.png"
+                alt="rating star icon image"
+                width="12"
+                height="12"
+              />
+              <img
+                src="rating-star-icon.png"
+                alt="rating star icon image"
+                width="12"
+                height="12"
+              />
+              <img
+                src="rating-star-icon.png"
+                alt="rating star icon image"
+                width="12"
+                height="12"
+              />
+              <img
+                src="rating-star-icon.png"
+                alt="rating star icon image"
+                width="12"
+                height="12"
+              />
+            </div>
+            <h4 class="fw-bold">Crispy Fried Chicken</h4>
+            <p class="text-body-secondary">
+              Price <span class="text-danger">$ 13.00</span>
+            </p>
+            <button
+              class="border border-1 border-danger bg-light rounded-3 text-danger p-1 px-2"
+            >
+              Add to Cart+
+            </button>
+          </div>
+          <div class="col-3 border border-light-subtle rounded-3 mx-1 p-0">
+            <img
+              src="crispy-fried-chicken-image.png"
+              alt="crispy fried chicken"
+              width="100"
+              height="108"
+            />
+            <div class="justify-content-center mx-3">
+              <img
+                src="rating-star-icon.png"
+                alt="rating star icon image"
+                width="12"
+                height="12"
+              />
+              <img
+                src="rating-star-icon.png"
+                alt="rating star icon image"
+                width="12"
+                height="12"
+              />
+              <img
+                src="rating-star-icon.png"
+                alt="rating star icon image"
+                width="12"
+                height="12"
+              />
+              <img
+                src="rating-star-icon.png"
+                alt="rating star icon image"
+                width="12"
+                height="12"
+              />
+              <img
+                src="rating-star-icon.png"
+                alt="rating star icon image"
+                width="12"
+                height="12"
+              />
+            </div>
+            <h4 class="fw-bold">Crispy Fried Chicken</h4>
+            <p class="text-body-secondary">
+              Price <span class="text-danger">$ 13.00</span>
+            </p>
+            <button
+              class="border border-1 border-danger bg-light rounded-3 text-danger p-1 px-2"
+            >
+              Add to Cart+
+            </button>
+          </div>
+          <div class="col-3 border border-light-subtle rounded-3 mx-1 p-0">
+            <img
+              src="crispy-fried-chicken-image.png"
+              alt="crispy fried chicken"
+              width="100"
+              height="108"
+            />
+            <div class="justify-content-center mx-3">
+              <img
+                src="rating-star-icon.png"
+                alt="rating star icon image"
+                width="12"
+                height="12"
+              />
+              <img
+                src="rating-star-icon.png"
+                alt="rating star icon image"
+                width="12"
+                height="12"
+              />
+              <img
+                src="rating-star-icon.png"
+                alt="rating star icon image"
+                width="12"
+                height="12"
+              />
+              <img
+                src="rating-star-icon.png"
+                alt="rating star icon image"
+                width="12"
+                height="12"
+              />
+              <img
+                src="rating-star-icon.png"
+                alt="rating star icon image"
+                width="12"
+                height="12"
+              />
+            </div>
+            <h4 class="fw-bold">Crispy Fried Chicken</h4>
+            <p class="text-body-secondary">
+              Price <span class="text-danger">$ 13.00</span>
+            </p>
+            <button
+              class="border border-1 border-danger bg-light rounded-3 text-danger p-1 px-2"
+            >
+              Add to Cart+
+            </button>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center">
+          <div id="main-dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+        </div>
+      </div>
+
+      <!-- Content of Third Page -->
+      <div id="content" class="row">
+        <div class="col-5">
+          <ul class="list-unstyled">
+            <li class="d-flex my-2 bg-white rounded-3 p-2">
+              <img
+                src="people-1.png"
+                alt="profile photo"
+                width="40"
+                height="50"
+                class="object-fit-contain rounded-circle"
+              />
+              <div class="mx-3">
+                <h5 class="my-0 p-0">Rosele Desoza</h5>
+                <p class="text-body-tertiary my-0 p-0">Marketing Coordinator</p>
+              </div>
+            </li>
+            <li class="d-flex my-2">
+              <img
+                src="people-2.png"
+                alt="profile photo"
+                width="40"
+                height="50"
+                class="object-fit-contain rounded-circle"
+              />
+              <div class="mx-3">
+                <h5 class="my-0 p-0">Marvin McKinney</h5>
+                <p class="text-body-tertiary my-0 p-0">Web Designer</p>
+              </div>
+            </li>
+            <li class="d-flex my-2">
+              <img
+                src="people-4.png"
+                alt="profile photo"
+                width="40"
+                height="50"
+                class="object-fit-contain rounded-circle"
+              />
+              <div class="mx-3">
+                <h5 class="my-0 p-0">Guy Hawkins</h5>
+                <p class="text-body-tertiary my-0 p-0">President of Sales</p>
+              </div>
+            </li>
+            <li class="d-flex my-2">
+              <img
+                src="people-3.png"
+                alt="profile photo"
+                width="40"
+                height="50"
+                class="object-fit-contain rounded-circle"
+              />
+              <div class="mx-3">
+                <h5 class="my-0 p-0">Kathryn Murphy</h5>
+                <p class="text-body-tertiary my-0 p-0">Marketing Coordinator</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="col-7">
+          <h2 class="fw-bold">What our Customers <span>are saying</span></h2>
+          <div
+            class="mt-5 px-1 d-flex justify-content-between align-items-center"
+          >
+            <div>
+              <h5 class="my-0 p-0">Rosele Desoza</h5>
+              <p class="text-body-tertiary fw-bold my-0 p-0">
+                Marketing Coordinator
+              </p>
+            </div>
+            <div class="justify-content-center mx-3">
+              <img
+                src="rating-star-icon.png"
+                alt="rating star icon image"
+                width="12"
+                height="12"
+              />
+              <img
+                src="rating-star-icon.png"
+                alt="rating star icon image"
+                width="12"
+                height="12"
+              />
+              <img
+                src="rating-star-icon.png"
+                alt="rating star icon image"
+                width="12"
+                height="12"
+              />
+              <img
+                src="rating-star-icon.png"
+                alt="rating star icon image"
+                width="12"
+                height="12"
+              />
+              <img
+                src="rating-star-icon.png"
+                alt="rating star icon image"
+                width="12"
+                height="12"
+              />
+            </div>
+          </div>
+          <div
+            class="progress justify-content-between mx-auto"
+            style="width: 100%; height: 2px"
+            role="progressbar"
+            aria-label="Example 1px high"
+            aria-valuenow="25"
+            aria-valuemin="0"
+            aria-valuemax="100"
+            style="height: 1px"
+          ></div>
+          <p class="text-body-tertiary fw-bold mt-5">
+            "Having good restaurant reviews is crucial these days. It is not
+            just making our decision to pick one easier, it is also helping the
+            restaurant be more successful. You can quickly copy and paste these
+            good restaurant review examples, publish them on Facebook"
+          </p>
+        </div>
+      </div>
+
+      <!-- Content of Fourth Page -->
+      <div id="content" class="row bg-danger w-100 rounded-4 py-5 text-light">
+        <div class="col-6"></div>
+        <div class="col-6">
+          <h2>
+            Never Feel Hungry! <br />
+            Download Our Mobile App <br />
+            Order Delicious Food
+          </h2>
+          <p>
+            Online ordering has enabled many restaurants to manage their peek
+            business hours very effectively.
+          </p>
+          <div class="d-flex me-2 justify-content-start align-items-center">
+            <img
+              src="apple-download-image.png"
+              alt="apple download image"
+              width="100"
+              height="34"
+            />
+            <img
+              src="play-store-download-image.png"
+              alt="play store download image"
+              width="90"
+              height="29"
+            />
+          </div>
+        </div>
+      </div>
+      <div id="app-menu">
+        <img src="app-menu.png" alt="app menu photo" />
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="row flex-nowrap">
+        <div class="col-4 mx-1">
+          <h2>
+            <span class="bg-danger text-light fw-bold rounded-2 px-1">D</span
+            ><span class="text-danger fw-bold mx-1">Fdelivery</span>
+          </h2>
+          <p class="text-body-secondary">
+            Retail food delivery is a courier service in which a restaurant,
+            store, or independent food-delivery
+          </p>
+          <div class="d-flex">
+            <img
+              src="icons.png"
+              alt="icons of facebook, twitter and linkedin"
+              width="100"
+              height="47"
+              class="object-fit-contain"
+            />
+          </div>
+        </div>
+        <div class="col-2 mx-1">
+          <h3>Company</h3>
+          <ul class="list-unstyled text-body-secondary">
+            <li>About Us</li>
+            <li>Blog</li>
+            <li>All Products</li>
+            <li>Locations Map</li>
+          </ul>
+        </div>
+        <div class="col-2 mx-1">
+          <h3>Services</h3>
+          <ul class="list-unstyled text-body-secondary">
+            <li>Order tracking</li>
+            <li>Wish List</li>
+            <li>My account</li>
+            <li>Terms & Conditions</li>
+          </ul>
+        </div>
+        <div class="col-2 mx-1">
+          <h3>Support</h3>
+          <ul class="list-unstyled text-body-secondary">
+            <li>FAQ</li>
+            <li>Policy</li>
+            <li>Business</li>
+            <li>Support Carrer</li>
+          </ul>
+        </div>
+        <div class="col-2 mx-1">
+          <h3>Contact</h3>
+          <ul class="list-unstyled text-body-secondary">
+            <li>WhatsApp</li>
+            <li>Support 24</li>
+            <li>Quick Chat</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
